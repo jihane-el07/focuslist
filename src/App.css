@@ -2,7 +2,7 @@
 .App{
   background-color: aliceblue;
   width: 60%;
-  height: 550px;
+  height: 500px;
   margin-left: 22%;
   border-radius: 30px;
    margin-top: 3%;
@@ -30,13 +30,13 @@
 .flower1{
 position: absolute;
 margin-left: 81%;
-margin-top: 40%;
+margin-top: 32%;
 
 }
 .flower2{
   position: absolute;
   margin-left: -4%;
-  margin-top: 40.5%;
+  margin-top: 32.7%;
   
   }
 
@@ -137,7 +137,7 @@ body{
   flex-direction: column;
   background-color: aliceblue;
   overflow-y: auto;
-  height: 270px;
+  height: 230px;
   margin-left: 5%;
   width: 83%;
   border-radius: 10px;
