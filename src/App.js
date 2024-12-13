@@ -170,7 +170,9 @@ function App() {
 
   return (
     <>
+    <div className='logo'>
     <img src="Capture.png" alt="" width='12%' />
+    </div>
     <div className="App">
     <div className='flower' >
     <img src="img.png" alt="" width='45%' />
