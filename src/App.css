@@ -2,7 +2,7 @@
 .App{
   background-color: aliceblue;
   width: 60%;
-  height: 550px;
+  height: 500px;
   margin-left: 22%;
   border-radius: 30px;
    margin-top: 3%;
@@ -45,6 +45,7 @@ body{
   /* background-color: #62825D; */
   color: #526E48;
   background-color: #62825dce;
+  overflow: hidden;
   
 }
 .h1{
@@ -137,7 +138,7 @@ body{
   flex-direction: column;
   background-color: aliceblue;
   overflow-y: auto;
-  height: 250px;
+  height: 230px;
   margin-left: 5%;
   width: 83%;
   border-radius: 10px;
