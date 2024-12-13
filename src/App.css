@@ -30,13 +30,13 @@
 .flower1{
 position: absolute;
 margin-left: 81%;
-margin-top: 32%;
+top: 50%;
 
 }
 .flower2{
   position: absolute;
   margin-left: -4%;
-  margin-top: 32.7%;
+  top: 50%;
   
   }
 
