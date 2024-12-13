@@ -5,7 +5,7 @@
   height: 550px;
   margin-left: 22%;
   border-radius: 30px;
-  margin-top: 3%;
+   margin-top: 3%;
    /* margin-top: -315px; */
    position: absolute;
 
@@ -13,8 +13,8 @@
 }
 .logo{
   position: absolute;
-  left: -35%;
-  top: 0%;
+  /* margin-left: -35%;
+  margin-top: -3%; */
 }
 .todo-list-item.completed .title {
   text-decoration: line-through;
