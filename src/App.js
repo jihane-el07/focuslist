@@ -172,9 +172,7 @@ function App() {
     <>
     
     <div className="App">
-    <div className='logo'>
-    <img src="Capture.png" alt="" width='25%' />
-    </div>
+    <img src="Capture.png" alt="" width='25%' className='logo' />
     <div className='flower' >
     <img src="img.png" alt="" width='50%' />
     </div>

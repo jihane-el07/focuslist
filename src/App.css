@@ -13,8 +13,8 @@
 }
 .logo{
   position: absolute;
-  /* margin-left: -35%;
-  margin-top: -3%; */
+  margin-left: -35%;
+  margin-top: -3%;
 }
 .todo-list-item.completed .title {
   text-decoration: line-through;
