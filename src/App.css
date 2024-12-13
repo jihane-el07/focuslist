@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+.App{
+  background-color: aliceblue;
+  width: 60%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+   margin-top: -105px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-list-item.completed .title {
+  text-decoration: line-through;
+  color: gray;
 }
+.flower{
+  position: absolute;
+  margin-left: 27%;
+  margin-top: -7%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.flower1{
+position: absolute;
+margin-left: 57%;
+margin-top: 22%;
+
+}
+.flower2{
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 22%;
+  
   }
+body{
+  /* background-color: #62825D; */
+  color: #526E48;
+  background-color: #62825dce;
+  overflow: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.h1{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 45px;
+}
+.todo-wrapper {
+  background-color: #353434;
+  padding: 2%;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 30vh;
+  box-shadow: 0px 5px 7px rgb(61, 60, 60);
+  border-radius: 3px;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}
+.todo-input{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+.todo-input-item{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+}
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  
+
+}
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 150px;
+  margin-left: 2%;
+}
+.todo-input-item input:focus{
+
+  outline: 2px solid #EED3B1;
+}
+.primaryBtn{
+  background-color:#EED3B1 ;
+  color: #1F4529;
+  border: none;
+  margin-top: 0px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+  margin-left: 2%;
+  border-radius:20px;
+  font-weight: bold;
+}
+.primaryBtn:active{
+  background-color: #1F4529;
+  color: #EED3B1;
+  
+}
+.secondryBtn{
+  background-color:#EED3B1;
+  color: #14341c;
+  border: none;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 5%;
+  margin-left: 5%;
+  font-weight: bold;
+ 
+}
+.active{
+  background-color:rgb(14, 155, 72) ;
+}
+.btn-area{
+  margin-bottom: 0px;
+  
+}
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  overflow-y: auto;
+  height: 250px;
+  margin-left: 5%;
+  width: 83%;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar{
+  width: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ::-webkit-scrollbar-thumb{
+  background:linear-gradient(#526E48,#393f37 50%,#393f37 50%,#526E48);
+  border-radius: 10px;
+} */
+
+
+.todo-list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-left: 15%;
+  width: 78%;
+  margin-top: 8px;
+  border-bottom:  1px solid gray;
+  
+  
+}
+.buttons{
+  margin-right: 10%;
+  display: flex;
+  border: none;
+}
+
+.title{
+  font-size: 20px;
+  color: #1F4529;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 8px;
+
+}
+.dateList{
+  font-size: 12px;
+  color: #1F4529;
+  margin-bottom: 2%;
+}
+.fa-check-circle{
+  color: green;
+  
+  
+}
+.fa-edit{
+  color: blue;
+}
+.fa-trash{
+  color: red;
+}
+
+
+
+
+@media screen and (min-width: 1530px){
+  .App{
+    background-color: aliceblue;
+    width: 60%;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 0px;
   }
-  to {
-    transform: rotate(360deg);
+  .flower{
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 0%;
+  
   }
+  .flower1{
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 34%;
+    
+    }
+    .flower2{
+      position: absolute;
+      margin-left: 4%;
+      margin-top: 34.5%;
+      
+      }
+      .todo-list{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        overflow-y: auto;
+        height: 450px;
+        
+      }
+  
 }
