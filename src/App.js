@@ -171,10 +171,14 @@ function App() {
   return (
     <>
     <img src="Capture.png" alt="" width='12%' />
-    <img src="img.png" alt="" width='20%' className='flower' />
+    <div className="App">
+    <div className='flower' >
+    <img src="img.png" alt="" width='45%' />
+    </div>
+    <div>
     <img src="img1.png" alt="" width='15%' className='flower1' />
     <img src="img2.png" alt="" width='15%' className='flower2' />
-    <div className="App">
+    </div>
       <h1 className='h1'>FocusList</h1>
       <div className='todo-wrapper'>
       <div className="todo-input-item">
