@@ -170,10 +170,11 @@ function App() {
 
   return (
     <>
-    <div className='logo'>
-    <img src="Capture.png" alt="" width='15%' />
-    </div>
+    
     <div className="App">
+    <div className='logo'>
+    <img src="Capture.png" alt="" width='25%' />
+    </div>
     <div className='flower' >
     <img src="img.png" alt="" width='50%' />
     </div>
