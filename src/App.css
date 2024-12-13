@@ -2,7 +2,7 @@
 .App{
   background-color: aliceblue;
   width: 60%;
-  height: 500px;
+  height: 530px;
   margin-left: 22%;
   border-radius: 30px;
    margin-top: 3%;
@@ -45,7 +45,7 @@ body{
   /* background-color: #62825D; */
   color: #526E48;
   background-color: #62825dce;
-  overflow: hidden;
+  /* overflow: hidden; */
   
 }
 .h1{

@@ -178,7 +178,7 @@ function App() {
     <img src="img.png" alt="" width='50%' />
     </div>
     <div>
-    <img src="img1.png" alt="" width='23%' className='flower1' />
+    <img src="img11.PNG" alt="" width='23%' className='flower1' />
     <img src="img2.png" alt="" width='23%' className='flower2' />
     </div>
       <h1 className='h1'>FocusList</h1>
